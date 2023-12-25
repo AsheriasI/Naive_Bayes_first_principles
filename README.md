@@ -38,22 +38,21 @@ This project focuses on breast cancer classification using a Naive Bayes classif
 ## Project Steps
 
 Data Loading and Preprocessing:
-
 Load the breast cancer dataset.
 Check for and handle missing values.
-Exploratory Data Analysis:
 
+Exploratory Data Analysis:
 Visualize the target variable distribution.
 Examine the correlation matrix.
+
 Feature Selection:
-
 Select relevant features based on correlation analysis.
-Naive Bayes Model:
 
+Naive Bayes Model:
 Implement Gaussian Naive Bayes model.
 Evaluate model performance using confusion matrix and F1 score.
-Handling Class Imbalance:
 
+Handling Class Imbalance:
 Use RandomOverSampler to address class imbalance.
 Re-run the Naive Bayes model on the resampled data.
 
@@ -64,7 +63,7 @@ Present the key results, including model performance metrics and any insights ga
 ![After oversampling](post-oversampling-histogram.png)
 ![Continuous vs Discrete histograms](cont_vs_disc.png)
 
-Reached up to 0.97 accuracy on most optimum settings.
+Reached up to 0.97 accuracy on optimum settings.
 
 ## Next Steps
 Discuss potential improvements, future work, and ways to expand the project.
