@@ -71,4 +71,4 @@ This is a continuous vs discrete plot of each of the 3 features used after featu
 Reached up to 0.97 accuracy on optimum settings.
 
 ## Next Steps
-Discuss potential improvements, future work, and ways to expand the project.
+- [ ] Write function to optimise number of bins
